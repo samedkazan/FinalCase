@@ -1,0 +1,75 @@
+2022-11-01 12:07:42,675 INFO  [Log] home_page():Testi Basariyla Tamamlandi. 
+2022-11-01 12:19:36,270 INFO  [Log] home_page():Testi Basariyla Tamamlandi. 
+2022-11-01 12:19:38,216 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:19:55,558 INFO  [Log] product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:21:12,978 INFO  [Log] home_page():Testi Basariyla Tamamlandi. 
+2022-11-01 12:21:14,373 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:21:29,053 INFO  [Log] product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:21:31,024 INFO  [Log] search_product_two():Testi Basariyla Tamamlandi. 
+2022-11-01 12:21:48,633 INFO  [Log] product_two():Testi Basariyla Tamamlandi. 
+2022-11-01 12:33:36,617 INFO  [Log] home_page():Testi Basariyla Tamamlandi. 
+2022-11-01 12:33:37,819 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:33:54,317 INFO  [Log] product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:33:56,308 INFO  [Log] search_product_two():Testi Basariyla Tamamlandi. 
+2022-11-01 12:34:12,588 INFO  [Log] product_two():Testi Basariyla Tamamlandi. 
+2022-11-01 12:34:13,300 INFO  [Log] go_to_basket():Testi Basariyla Tamamlandi. 
+2022-11-01 12:34:14,236 INFO  [Log] first_product_verification():Testi Basariyla Tamamlandi. 
+2022-11-01 12:34:14,344 INFO  [Log] second_product_verification():Testi Basariyla Tamamlandi. 
+2022-11-01 12:34:14,429 INFO  [Log] different_seller_verification():Testi Basariyla Tamamlandi. 
+2022-11-01 12:42:04,854 INFO  [Log] home_page():Testi Basariyla Tamamlandi. 
+2022-11-01 12:42:06,078 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:42:31,998 ERROR [Log] Test Basarisiz Oldu. Sebebi: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="AddToCart_369b3273-efaf-45ae-bf8d-2d8cbb93b4a2"]/div/div/div/div/div/div[1]/div/div[1]/div/div[1]/div/span"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-LJ7A5F6C', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb4eeefe2895239b20a358a755c78218, findElement {using=xpath, value=//*[@id="AddToCart_369b3273-efaf-45ae-bf8d-2d8cbb93b4a2"]/div/div/div/div/div/div[1]/div/div[1]/div/div[1]/div/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Samed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59855/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb4eeefe2895239b20a358a755c78218 
+2022-11-01 12:42:34,198 INFO  [Log] search_product_two():Testi Basariyla Tamamlandi. 
+2022-11-01 12:43:20,130 INFO  [Log] home_page():Testi Basariyla Tamamlandi. 
+2022-11-01 12:43:21,305 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:45:14,981 INFO  [Log] home_page():Testi Basariyla Tamamlandi. 
+2022-11-01 12:45:16,170 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:45:46,254 ERROR [Log] Test Basarisiz Oldu. Sebebi: no such element: Unable to locate element: {"method":"partial link text","selector":"Ürün sepetinizde"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-LJ7A5F6C', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [945d1d7c7b9948d48193685422f7ccbe, findElement {using=partial link text, value=Ürün sepetinizde}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Samed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60475}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60475/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 945d1d7c7b9948d48193685422f7ccbe 
+2022-11-01 12:45:48,390 INFO  [Log] search_product_two():Testi Basariyla Tamamlandi. 
+2022-11-01 12:47:15,699 INFO  [Log] home_page():Testi Basariyla Tamamlandi. 
+2022-11-01 12:47:16,913 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:47:46,784 ERROR [Log] Test Basarisiz Oldu. Sebebi: no such element: Unable to locate element: {"method":"css selector","selector":".checkoutui\-ProductOnBasketHeader\-22Wrk"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-LJ7A5F6C', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e44802fc3a7eb30920d09f1984376b40, findElement {using=class name, value=checkoutui-ProductOnBasketHeader-22Wrk}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Samed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60905/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e44802fc3a7eb30920d09f1984376b40 
+2022-11-01 12:48:20,757 INFO  [Log] home_page():Testi Basariyla Tamamlandi. 
+2022-11-01 12:48:21,951 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:52:44,661 INFO  [Log] home_page():Testi Basariyla Tamamlandi. 
+2022-11-01 12:52:45,878 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:53:31,649 ERROR [Log] Test Basarisiz Oldu. Sebebi: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-LJ7A5F6C', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown 
+2022-11-01 12:55:42,621 INFO  [Log] home_page():Testi Basariyla Tamamlandi. 
+2022-11-01 12:55:43,873 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-01 12:56:34,580 ERROR [Log] Test Basarisiz Oldu. Sebebi: no such element: Unable to locate element: {"method":"partial link text","selector":"Sepete git"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-LJ7A5F6C', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d417f08a99681c708c258a47609fb152, findElement {using=partial link text, value=Sepete git}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Samed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62151}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62151/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d417f08a99681c708c258a47609fb152 
