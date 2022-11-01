@@ -1,6 +1,6 @@
-# Konu: ## Hepsiburada.com üzerinden sepete ürün eklenmesi
+## Konu: Hepsiburada.com üzerinden sepete ürün eklenmesi
 
-# Kullanılacak Teknolojiler: ## Selenium
+## Kullanılacak Teknolojiler: Selenium
 
 ## 1. Kullanıcı girişi yapılarak sepete ürün eklenmesi
 1. Kullanıcı Hepsiburada.com sitesini ziyaret eder.
