@@ -16,7 +16,7 @@ public class LoginPage extends BasePage {
         type(By.id("txtPassword"),"TestDeneme1234");
         click(By.id("btnEmailSelect"));
     }
-    public String loginVerification(){
-        return find(By.xpath("//*[@id=\"myAccount\"]/span/a/span[2]")).getText();
+    public String successLogInText(){
+        return find(By.xpath("//span[@class='sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR']")).getText();
     }
 }

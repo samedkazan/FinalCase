@@ -5,15 +5,13 @@ import org.junit.jupiter.api.extension.TestWatcher;
 
 public class TestResultLog implements TestWatcher {
     Log log = new Log();
-//Log kayıtları için
+    //Log kayıtları için
 
     @Override
     public void testSuccessful(ExtensionContext context) {
         String testName = context.getDisplayName();
-        log.info(testName+":Testi Basariyla Tamamlandi.");
+        log.info(testName+ ":Testi Basariyla Tamamlandi.");
     }
-
-
 
     @Override
     public void testFailed(ExtensionContext context, Throwable cause) {

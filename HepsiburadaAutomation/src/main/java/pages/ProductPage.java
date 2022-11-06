@@ -1,6 +1,7 @@
 package pages;
 
 import base.BasePage;
+import logger.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -14,6 +15,7 @@ public class ProductPage extends BasePage {
         scrollDown();
         // Ürünü Seçer
         click(By.partialLinkText("Apple iPhone 13 Magsafe Silikon Kılıf – (Product)Red MM2C3ZM/A"));
+        Log.info("Ürün Seçildi");
         // Sonraki Sekmeye Geçer
         switchToNextTab();
         // Bir Saniye Bekler
@@ -21,11 +23,13 @@ public class ProductPage extends BasePage {
         // Ekranı Aşağı Kaydırır
         scrollDown();
         // Koyu Lacivert Rengi Seçer
-        click(By.xpath("/html/body/div[2]/main/div[3]/section[1]/div[3]/div/div[4]/div[1]/div[4]/div[4]/div/div[3]/label"));
+        click(By.xpath("//label[@for='Renk2']"));
+        Log.info("Koyu Lacivert Renk Seçildi");
         // Bir Saniye Bekler
         waitBySeconds(1);
         // Ürünü Sepete Ekler
-        click(By.xpath("//*[@id=\"addToCart\"]"));
+        click(By.xpath("//button[@id='addToCart']"));
+        Log.info("Ürün Sepete Eklendi");
         // Ürün Eklendikten Sonra 5 Saniye Bekler
         waitBySeconds(5);
         // Önceki Sekmeye Geri Döner
@@ -38,22 +42,26 @@ public class ProductPage extends BasePage {
         scrollDown();
         // Ürünü Seçer
         click(By.partialLinkText("Fibaks Apple iPhone 13 Uyumlu Kılıf Şeffaf Berrak Kamera Korumalı Renkli Yumuşak"));
+        Log.info("Ürün Sepete Eklendi");
         // Sonraki Sekmeye Geçer
         switchToNextTab();
         // Ekranı Aşağı Kaydırır
         scrollDown();
         // Siyah Rengi Seçeneğine Tıklar
-        click(By.xpath("/html/body/div[2]/main/div[3]/section[1]/div[3]/div/div[4]/div[1]/div[4]/div[4]/div[1]/div[5]/label"));
+        click(By.xpath("//label[@for='Renk4']"));
+        Log.info("Siyah Renk Seçildi");
         //İphone 13 Pro Max Seçeneğine Tıklar
-        click(By.xpath("/html/body/div[2]/main/div[3]/section[1]/div[3]/div/div[4]/div[1]/div[4]/div[4]/div[2]/div[2]/div[5]/label"));
+        click(By.xpath("//label[@for='Se&#231;enek4']"));
+        Log.info("Cihaz Türü Seçildi");
         // 1 Saniye Bekler
         waitBySeconds(1);
         // Ürünü Sepete Ekler
-        click(By.xpath("//*[@id=\"addToCart\"]"));
-        // Sayfayı Yukarı Kaydırır
-        scrollUp();
+        click(By.xpath("//button[@id='addToCart']"));
+        Log.info("Ürün Sepete Eklendi");
         // Pop-up İçin 5 Saniye Bekler
         waitBySeconds(5);
+
+
     }
 
 }

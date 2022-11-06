@@ -1,6 +1,7 @@
 package pages;
 
 import base.BasePage;
+import logger.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -10,18 +11,24 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    public void cookies(){
+    public void acceptCookies(){
         // Çerezi Kabul Eder
-        click(By.xpath("//*[@id=\"onetrust-accept-btn-handler\"]"));
+        click(By.xpath("//button[@id='onetrust-accept-btn-handler']"));
+        //Bir saniye bekler
         waitBySeconds(1);
+        Log.info("Çerezler kabul edildi");
     }
 
-    public void loginButton(){
+    public void logInOrSignInButton(){
         //Hesabım Butonuna Tıklar
-        click(By.xpath("//*[@id=\"myAccount\"]"));
+        hover(By.xpath("//div[@id='myAccount']"));
+        //click(By.xpath("//div[@id='myAccount']"));
+        Log.info("Hesabım butonuna tıklandı");
+        //Bir saniye bekler
         waitBySeconds(1);
         //Giriş Yap Butonuna Tıklar
-        click(By.xpath("//*[@id=\"login\"]"));
+        click(By.xpath("//a[@id='login']"));
+        Log.info("Açılan menüden giriş yap butonuna tıklandı");
     }
 
 }

@@ -1,6 +1,7 @@
 package pages;
 
 import base.BasePage;
+import logger.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -9,26 +10,39 @@ public class CartPage extends BasePage {
         super(driver);
     }
     public void basket(){
-        click(By.cssSelector("div[class='checkoutui-ProductOnBasketHeader-m4tLG']>button"));
+        //Sepete Gider
+        click(By.xpath("//button[normalize-space()='Sepete git']"));
+        Log.info("Sepete Gidildi");
     }
     public String productOneName()
     // Sepette Olan İlk Ürünün Kontrolü İçin Text Yazısını Alıyoruz
     {
-        return find(By.partialLinkText("Fibaks Apple iPhone 13 Pro Max Uyumlu Kılıf Şeffaf Berrak Kamera Korumalı Renkli Yumuşak")).getText();
+       String text= find(By.xpath("//a[contains(text(),'Fibaks Apple iPhone 13 Pro Max Uyumlu Kılıf Şeffaf')]")).getText();
+        Log.info("İlk Ürün adı: "+text);
+        return text;
     }
     public String productTwoName()
     // Sepette Olan ikinci Ürünün Kontrolü İçin Text Yazısını Alıyoruz
     {
-        return find(By.partialLinkText("Apple iPhone 13 Magsafe Silikon Kılıf – Midnight MM2A3ZM/A")).getText();
+        String text = find(By.xpath("//a[contains(text(),'Apple iPhone 13 Magsafe Silikon Kılıf – Midnight M')]")).getText();
+        Log.info("İkinci ürün adı: "+text);
+        return text;
     }
     public String productOneSeller()
     // Sepette Olan İlk Ürünün Satıcısının  Kontrolü İçin Text Yazısını Alıyoruz
     {
-        return find(By.className("merchantLink_2Ii8s")).getText();
+        String text = find(By.xpath("//a[normalize-space()='fiberaksesuar']")).getText();
+        Log.info("İlk Ürün Satıcısı Adı: "+text);
+        return text;
     }
     public String productTwoSeller()
     // Sepette Olan İkinci Ürünün Satıcısının  Kontrolü İçin Text Yazısını Alıyoruz
     {
-        return find(By.className("merchantLink_2Ii8s")).getText();
+
+        String text = find(By.xpath("//a[normalize-space()='hepsiburada']")).getText();
+        Log.info("İkinci Ürün Satıcısı Adı: "+text);
+        return text;
     }
+
+
 }

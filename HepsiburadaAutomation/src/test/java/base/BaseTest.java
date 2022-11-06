@@ -1,5 +1,6 @@
 package base;
 
+import logger.Log;
 import logger.TestResultLog;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
@@ -23,25 +24,27 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
         options.addArguments("--start-maximized");
-        options.addArguments("--profile-directory=Default");
-        options.addArguments("--disable-web-security");
         options.addArguments("--ignore-certificate-errors");
         options.addArguments("--allow-insecure-localhost");
         options.addArguments("--acceptInsecureCerts");
-        options.addArguments("--disable-notifications");
         options.addArguments("--disable-blink-features=AutomationControlled");
         options.addArguments("--disable-extensions");
         WebDriverManager.chromedriver().setup();
+
         driver = new ChromeDriver(options);
-        driver.get("https://www.hepsiburada.com/");
-        driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
+        driver.navigate().to("https://www.hepsiburada.com/");
+        Log.startTestCase("Test için Chrome driver ayarları yapıldı... Test Başlıyor");
+        //driver.get("https://www.hepsiburada.com/");
     }
 
     @AfterAll
     public void tearDown() {
-//        Sayfayı kapatıyoruz
+    //Sayfayı kapatıyoruz
+        driver.quit();
+        Log.endTestCase("Test tamamlandı... Chrome kapatıldı...");
     }
 }
 

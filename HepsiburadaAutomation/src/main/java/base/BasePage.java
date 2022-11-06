@@ -1,6 +1,7 @@
 package base;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.ArrayList;
 
@@ -36,11 +37,6 @@ public class BasePage {
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("window.scrollBy(0,300)","");
     }
-    public void scrollUp(){
-        //Ekranı yukarı kaydıran method atıyoruz.
-        JavascriptExecutor js = (JavascriptExecutor)driver;
-        js.executeScript("window.scrollBy(0,-300)","");
-    }
 
     public void type(By locator, String text) {
         //sendkeys için method atıyoruz.
@@ -50,6 +46,10 @@ public class BasePage {
     public void typeEnter(By locator,String text){
         //İstenilen alana texti yazdırır ve enter tuşuna basan method atıyoruz.
         find(locator).sendKeys(text, Keys.ENTER);
+    }
+    public void hover(By locator){
+        Actions actions = new Actions(driver);
+        actions.moveToElement(find(locator)).build().perform();
     }
     public void waitBySeconds(long seconds) {
         //statik bekleme için method atıyoruz.
