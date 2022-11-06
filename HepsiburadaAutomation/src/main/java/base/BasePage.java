@@ -18,11 +18,13 @@ public class BasePage {
 
     }
     public void switchToNextTab() {
+        //Sonraki seçmeye geçen method atıyoruz
         ArrayList<String> tab = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tab.get(1));
     }
 
     public void closeTabAndReturn() {
+        //Sekmeyi kapatan ve önceki seçmeye geçen method atıyoruz
         driver.close();
         ArrayList<String> tab = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tab.get(0));
@@ -48,6 +50,7 @@ public class BasePage {
         find(locator).sendKeys(text, Keys.ENTER);
     }
     public void hover(By locator){
+        //Fare kontrolcüsünü belirtilen alanda üzerine gelen method atıyoruz
         Actions actions = new Actions(driver);
         actions.moveToElement(find(locator)).build().perform();
     }

@@ -14,13 +14,13 @@ public class SearchPage extends BasePage {
         typeEnter(By.xpath("//input[@class='desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b']"),"İphone Kılıf");
         //Bir Saniye Bekler
         waitBySeconds(1);
-        Log.info("İphone kılıf aratılıyor");
+        Log.info("İphone Kılıf aratılıyor");
     }
     public void searchProductTwo(){
         // 1 Saniye Bekler
         waitBySeconds(1);
         // Şefaf Kelimesini Ekler Ve Enter Tuşuna Basar
         typeEnter(By.xpath("//input[@class='desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b']")," Şeffaf");
-        Log.info("İphone kılıf şefaf aratılıyor");
+        Log.info("İphone Kılıf Şefaf aratılıyor");
     }
 }

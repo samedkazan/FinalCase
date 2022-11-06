@@ -434,3 +434,128 @@ Session ID: 93256e695c1238fbd9df9c781fb815d8
 2022-11-05 20:07:43,551 INFO  [Log] İkinci Ürün Satıcısı Adı: Hepsiburada 
 2022-11-05 20:07:43,556 ERROR [Log] Test Basarisiz Oldu. Sebebi: Aynı Satıcılar ==> expected: <Fiberaksesuar> but was: <Hepsiburada> 
 2022-11-05 20:07:43,940 INFO  [Log] *********Test tamamlandı... Chrome kapatıldı...****************** 
+2022-11-06 20:35:33,639 INFO  [Log] ***********Test için Chrome driver ayarları yapıldı... Test Başlıyor********************** 
+2022-11-06 20:35:35,125 INFO  [Log] Çerezler kabul edildi 
+2022-11-06 20:35:35,134 INFO  [Log] accept_cookies():Testi Basariyla Tamamlandi. 
+2022-11-06 20:35:36,439 INFO  [Log] İphone Kılıf aratılıyor 
+2022-11-06 20:35:36,439 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-06 20:35:42,423 INFO  [Log] Ürün Seçildi 
+2022-11-06 20:35:46,086 INFO  [Log] Koyu Lacivert Renk Seçildi 
+2022-11-06 20:35:47,427 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:35:52,675 INFO  [Log] product_one():Testi Basariyla Tamamlandi. 
+2022-11-06 20:35:54,683 INFO  [Log] İphone Kılıf Şefaf aratılıyor 
+2022-11-06 20:35:54,684 INFO  [Log] search_product_two():Testi Basariyla Tamamlandi. 
+2022-11-06 20:36:01,907 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:36:05,882 INFO  [Log] Siyah Renk Seçildi 
+2022-11-06 20:36:05,977 INFO  [Log] Cihaz Türü Seçildi 
+2022-11-06 20:36:07,358 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:36:12,360 INFO  [Log] product_two():Testi Basariyla Tamamlandi. 
+2022-11-06 20:36:13,440 INFO  [Log] Sepete Gidildi 
+2022-11-06 20:36:13,440 INFO  [Log] go_to_basket():Testi Basariyla Tamamlandi. 
+2022-11-06 20:36:14,020 INFO  [Log] İlk Ürün adı: Fibaks Apple iPhone 13 Pro Max Uyumlu Kılıf Şeffaf Berrak Kamera Korumalı Renkli Yumuşak 
+2022-11-06 20:36:14,027 INFO  [Log] first_product_verification():Testi Basariyla Tamamlandi. 
+2022-11-06 20:36:14,481 INFO  [Log] İkinci ürün adı: Apple iPhone 13 Magsafe Silikon Kılıf – Midnight MM2A3ZM/A 
+2022-11-06 20:36:14,482 INFO  [Log] second_product_verification():Testi Basariyla Tamamlandi. 
+2022-11-06 20:36:14,575 INFO  [Log] İlk Ürün Satıcısı Adı: Fiberaksesuar 
+2022-11-06 20:36:24,721 ERROR [Log] Test Basarisiz Oldu. Sebebi: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='hepsiburada']"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-LJ7A5F6C', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [364cfb6f5287b65a0424ace1a749424e, findElement {using=xpath, value=//a[normalize-space()='hepsiburada']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Samed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54534/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 364cfb6f5287b65a0424ace1a749424e 
+2022-11-06 20:36:25,062 INFO  [Log] *********Test tamamlandı... Chrome kapatıldı...****************** 
+2022-11-06 20:39:06,868 INFO  [Log] ***********Test için Chrome driver ayarları yapıldı... Test Başlıyor********************** 
+2022-11-06 20:39:08,289 INFO  [Log] Çerezler kabul edildi 
+2022-11-06 20:39:08,298 INFO  [Log] accept_cookies():Testi Basariyla Tamamlandi. 
+2022-11-06 20:39:09,592 INFO  [Log] İphone Kılıf aratılıyor 
+2022-11-06 20:39:09,593 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-06 20:39:15,075 INFO  [Log] Ürün Seçildi 
+2022-11-06 20:39:18,492 INFO  [Log] Koyu Lacivert Renk Seçildi 
+2022-11-06 20:39:19,750 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:39:24,871 INFO  [Log] product_one():Testi Basariyla Tamamlandi. 
+2022-11-06 20:39:26,838 INFO  [Log] İphone Kılıf Şefaf aratılıyor 
+2022-11-06 20:39:26,839 INFO  [Log] search_product_two():Testi Basariyla Tamamlandi. 
+2022-11-06 20:39:33,164 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:39:36,755 INFO  [Log] Siyah Renk Seçildi 
+2022-11-06 20:39:36,865 INFO  [Log] Cihaz Türü Seçildi 
+2022-11-06 20:39:38,165 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:39:43,166 INFO  [Log] product_two():Testi Basariyla Tamamlandi. 
+2022-11-06 20:39:44,510 INFO  [Log] Sepete Gidildi 
+2022-11-06 20:39:44,511 INFO  [Log] go_to_basket():Testi Basariyla Tamamlandi. 
+2022-11-06 20:39:54,599 ERROR [Log] Test Basarisiz Oldu. Sebebi: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Fibaks Apple iPhone 13 Pro Max Uyumlu Kılıf Şeffaf')]"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-LJ7A5F6C', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [141c09ec874edca66b2115fc68e0b98c, findElement {using=xpath, value=//a[contains(text(),'Fibaks Apple iPhone 13 Pro Max Uyumlu Kılıf Şeffaf')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Samed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55162/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 141c09ec874edca66b2115fc68e0b98c 
+2022-11-06 20:40:04,662 ERROR [Log] Test Basarisiz Oldu. Sebebi: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Apple iPhone 13 Magsafe Silikon Kılıf – Midnight M')]"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-LJ7A5F6C', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [141c09ec874edca66b2115fc68e0b98c, findElement {using=xpath, value=//a[contains(text(),'Apple iPhone 13 Magsafe Silikon Kılıf – Midnight M')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Samed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55162/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 141c09ec874edca66b2115fc68e0b98c 
+2022-11-06 20:40:04,707 INFO  [Log] İlk Ürün Satıcısı Adı: Fiberaksesuar 
+2022-11-06 20:40:04,741 INFO  [Log] İkinci Ürün Satıcısı Adı: Hepsiburada 
+2022-11-06 20:40:04,744 INFO  [Log] different_seller_verification():Testi Basariyla Tamamlandi. 
+2022-11-06 20:40:04,983 INFO  [Log] *********Test tamamlandı... Chrome kapatıldı...****************** 
+2022-11-06 20:42:40,886 INFO  [Log] ***********Test için Chrome driver ayarları yapıldı... Test Başlıyor********************** 
+2022-11-06 20:42:42,066 INFO  [Log] Çerezler kabul edildi 
+2022-11-06 20:42:42,074 INFO  [Log] accept_cookies():Testi Basariyla Tamamlandi. 
+2022-11-06 20:42:43,307 INFO  [Log] İphone Kılıf aratılıyor 
+2022-11-06 20:42:43,307 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-06 20:42:46,704 INFO  [Log] Ürün Seçildi 
+2022-11-06 20:42:50,609 INFO  [Log] Koyu Lacivert Renk Seçildi 
+2022-11-06 20:42:52,115 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:42:57,268 INFO  [Log] product_one():Testi Basariyla Tamamlandi. 
+2022-11-06 20:42:59,297 INFO  [Log] İphone Kılıf Şefaf aratılıyor 
+2022-11-06 20:42:59,298 INFO  [Log] search_product_two():Testi Basariyla Tamamlandi. 
+2022-11-06 20:43:05,406 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:43:10,064 INFO  [Log] Siyah Renk Seçildi 
+2022-11-06 20:43:10,185 INFO  [Log] Cihaz Türü Seçildi 
+2022-11-06 20:43:11,483 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:43:16,485 INFO  [Log] product_two():Testi Basariyla Tamamlandi. 
+2022-11-06 20:43:17,328 INFO  [Log] Sepete Gidildi 
+2022-11-06 20:43:17,329 INFO  [Log] go_to_basket():Testi Basariyla Tamamlandi. 
+2022-11-06 20:43:18,060 INFO  [Log] İlk Ürün adı: Fibaks Apple iPhone 13 Pro Max Uyumlu Kılıf Şeffaf Berrak Kamera Korumalı Renkli Yumuşak 
+2022-11-06 20:43:18,064 INFO  [Log] first_product_verification():Testi Basariyla Tamamlandi. 
+2022-11-06 20:43:18,309 INFO  [Log] İkinci ürün adı: Apple iPhone 13 Magsafe Silikon Kılıf – Abyss Blue MM293ZM/A 
+2022-11-06 20:43:18,309 INFO  [Log] second_product_verification():Testi Basariyla Tamamlandi. 
+2022-11-06 20:43:18,344 INFO  [Log] İlk Ürün Satıcısı Adı: Fiberaksesuar 
+2022-11-06 20:43:18,374 INFO  [Log] İkinci Ürün Satıcısı Adı: Hepsiburada 
+2022-11-06 20:43:18,375 INFO  [Log] different_seller_verification():Testi Basariyla Tamamlandi. 
+2022-11-06 20:43:18,636 INFO  [Log] *********Test tamamlandı... Chrome kapatıldı...****************** 
+2022-11-06 20:47:30,582 INFO  [Log] ***********Test için Chrome driver ayarları yapıldı... Test Başlıyor********************** 
+2022-11-06 20:47:31,764 INFO  [Log] Çerezler kabul edildi 
+2022-11-06 20:47:31,769 INFO  [Log] accept_cookies():Testi Basariyla Tamamlandi. 
+2022-11-06 20:47:33,034 INFO  [Log] İphone Kılıf aratılıyor 
+2022-11-06 20:47:33,034 INFO  [Log] search_product_one():Testi Basariyla Tamamlandi. 
+2022-11-06 20:47:40,910 INFO  [Log] Ürün Seçildi 
+2022-11-06 20:47:45,475 INFO  [Log] Koyu Lacivert Renk Seçildi 
+2022-11-06 20:47:46,737 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:47:51,882 INFO  [Log] product_one():Testi Basariyla Tamamlandi. 
+2022-11-06 20:47:54,072 INFO  [Log] İphone Kılıf Şefaf aratılıyor 
+2022-11-06 20:47:54,072 INFO  [Log] search_product_two():Testi Basariyla Tamamlandi. 
+2022-11-06 20:48:01,912 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:48:06,810 INFO  [Log] Siyah Renk Seçildi 
+2022-11-06 20:48:06,897 INFO  [Log] Cihaz Türü Seçildi 
+2022-11-06 20:48:08,125 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-06 20:48:13,126 INFO  [Log] product_two():Testi Basariyla Tamamlandi. 
+2022-11-06 20:48:14,224 INFO  [Log] Sepete Gidildi 
+2022-11-06 20:48:14,225 INFO  [Log] go_to_basket():Testi Basariyla Tamamlandi. 
+2022-11-06 20:48:14,808 INFO  [Log] İlk Ürün adı: Fibaks Apple iPhone 13 Pro Max Uyumlu Kılıf Şeffaf Berrak Kamera Korumalı Renkli Yumuşak 
+2022-11-06 20:48:14,815 INFO  [Log] first_product_verification():Testi Basariyla Tamamlandi. 
+2022-11-06 20:48:14,949 INFO  [Log] İkinci ürün adı: Apple iPhone 13 Magsafe Silikon Kılıf – Abyss Blue MM293ZM/A 
+2022-11-06 20:48:14,949 INFO  [Log] second_product_verification():Testi Basariyla Tamamlandi. 
+2022-11-06 20:48:15,389 INFO  [Log] İlk Ürün Satıcısı Adı: Fiberaksesuar 
+2022-11-06 20:48:15,432 INFO  [Log] İkinci Ürün Satıcısı Adı: Hepsiburada 
+2022-11-06 20:48:15,434 INFO  [Log] different_seller_verification():Testi Basariyla Tamamlandi. 
+2022-11-06 20:48:15,807 INFO  [Log] *********Test tamamlandı... Chrome kapatıldı...****************** 

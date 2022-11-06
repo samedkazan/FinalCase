@@ -22,7 +22,9 @@ public class AppTest extends BaseTest {
     homePage = new HomePage(driver);
     homePage.acceptCookies();
     }
-   /* @Test
+   /*
+   //Login testi yapılmak istenirse yorum satırından çıkarılması gerekir....
+   @Test
     @Order(2)
     public void log_in_sign_in_button(){
         homePage.logInOrSignInButton();
@@ -68,7 +70,7 @@ public class AppTest extends BaseTest {
     @Test
     @Order(8)
     public void second_product_verification(){
-        Assertions.assertEquals("Apple iPhone 13 Magsafe Silikon Kılıf – Midnight MM2A3ZM/A", cartPage.productTwoName(), "Yanlış Ürün :");
+        Assertions.assertEquals("Apple iPhone 13 Magsafe Silikon Kılıf – Abyss Blue MM293ZM/A", cartPage.productTwoName(), "Yanlış Ürün :");
     }
     @Test
     @Order(9)

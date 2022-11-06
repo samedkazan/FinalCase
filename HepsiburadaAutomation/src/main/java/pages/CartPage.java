@@ -24,7 +24,7 @@ public class CartPage extends BasePage {
     public String productTwoName()
     // Sepette Olan ikinci Ürünün Kontrolü İçin Text Yazısını Alıyoruz
     {
-        String text = find(By.xpath("//a[contains(text(),'Apple iPhone 13 Magsafe Silikon Kılıf – Midnight M')]")).getText();
+        String text = find(By.xpath("//a[contains(text(),'Apple iPhone 13 Magsafe Silikon Kılıf – Abyss Blue')]")).getText();
         Log.info("İkinci ürün adı: "+text);
         return text;
     }

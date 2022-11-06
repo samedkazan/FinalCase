@@ -22,8 +22,8 @@ public class ProductPage extends BasePage {
         waitBySeconds(1);
         // Ekranı Aşağı Kaydırır
         scrollDown();
-        // Koyu Lacivert Rengi Seçer
-        click(By.xpath("//label[@for='Renk2']"));
+        // Koyu Mavi Rengi Seçer
+        click(By.xpath("//label[@for='Renk3']"));
         Log.info("Koyu Lacivert Renk Seçildi");
         // Bir Saniye Bekler
         waitBySeconds(1);
